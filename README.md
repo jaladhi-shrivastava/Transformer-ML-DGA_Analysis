@@ -51,28 +51,6 @@ To ensure realistic and controlled behavior, the dataset is physics-informed and
 
 ---
 
-## Project Structure
-
-transformer-fault-ml/
-│
-├── data/
-├── models/
-├── src/
-│   ├── preprocessing.py
-│   ├── train.py
-│   ├── benchmark.py
-│   ├── feature_ablation.py
-│   ├── classical_methods.py
-│   ├── explain.py
-│   └── config.py
-│
-├── api/
-├── main.py
-├── requirements.txt
-└── README.md
-
----
-
 ## Results Summary
 
 | Metric | Result |
@@ -114,23 +92,6 @@ pip install -r requirements.txt
 ## Running the Project
 
 python main.py
-
----
-
-## API (Optional)
-
-uvicorn api.app:app --reload
-
-http://127.0.0.1:8000/docs
-
----
-
-## Contributors
-
-Jaladhi Shrivastava  
-Parul Mittal  
-Arjun Dhaka  
-Prikshit  
 
 ---
 
